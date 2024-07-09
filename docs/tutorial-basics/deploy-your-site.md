@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Deploy your site
+# Tsifsa rop
 
 Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
 
