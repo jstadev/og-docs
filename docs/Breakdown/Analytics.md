@@ -10,14 +10,14 @@ Specifically, the page includes:
 - Total number of approved proposals.
 - Total monitored tracks.
 - Total DOT funded.
-- Proposals approved by track (chart).
-- Monthly DOT spent (chart).
-- Proposals approved by category (chart).
-- Average DOT allocation by category (chart).
-- Spenders' status: delivered, in progress, and flagged proposals (chart).
-- Average duration by spenders (chart).
+- Proposals approved by track.
+- Monthly DOT spent .
+- Proposals approved by category .
+- Average DOT allocation by category .
+- Spenders' status: delivered, in progress, and flagged proposals .
+- Average duration by spenders .
 - Monthly DOT spent by track.
 
-_These insights offer a complete overview of Polkadot’s OpenGov, helping you stay informed and engaged with the latest updates._
+> _These insights offer a complete overview of Polkadot’s OpenGov, helping you stay informed and engaged with the latest updates._
 
 <img src={require('@site/static/img/images/analytics.png').default} />

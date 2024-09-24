@@ -4,7 +4,8 @@ sidebar_position: 4
 
 # OGT Review 
 
-The OGT Review is a dedicated section within each proposal where the OG Tracker team provides **comments** and **insights** regarding the proposal. This section is used to offer explanations about any modifications made to the proposal or to clarify specific details following in-depth communications with the proposers.
+The OGT Review is a dedicated section within each proposal where the OG Tracker team provides **comments** and **insights** regarding the proposal. <br/>
+This section is used to offer explanations about any modifications made to the proposal or to clarify specific details following in-depth communications with the proposers.
 
 **Current Usage of the OGT Review:**
 - _For flagged proposals._

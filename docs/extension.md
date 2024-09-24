@@ -20,7 +20,7 @@ However, there are instances where proposers might miscalculate the scope of the
 > **Note 3:** _Even though we offer the option to extend the duration, we always encourage proposers to take this matter seriously and focus on delivering within their initially established duration!_
 
 
-## **Why is setting a legitimate deadline-duration so important?**
+## **Why is setting a legitimate duration so important?**
 
 - Accurately calculating the time needed to complete your proposal and adhering to that timeline demonstrates a thorough understanding of your product. 
 It shows you have conducted a deep research and presented a well-thought-out plan when requesting funding, taking into account all potential parameters and setbacks.

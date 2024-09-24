@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Tracks 
 
-We are displaying 15 tracks of Polkadot’s OpenGov with a high priority on tracking the Spenders tracks: 
+We are displaying 15 tracks of Polkadot’s OpenGov with a high priority on tracking the Spender tracks: 
 - _Big Spender_ 
 - _Medium Spender_ 
 - _Small Spender_ 

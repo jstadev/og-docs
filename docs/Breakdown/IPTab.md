@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# In Progress Tab
+# In Progress
 
 This page provides a detailed list of all the promised deliverables as initially stated in the original proposal, each accompanied by a badge indicating its current status.
 
