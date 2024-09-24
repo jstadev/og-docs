@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# In Progress
+# In Progress 
 
 Documents are **groups of pages** connected through:
 
@@ -22,7 +22,7 @@ This is my **first Docusaurus document**!
 
 A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
 
-## Configure the Sidebar
+## Configure the Sidebarsss
 
 Docusaurus automatically **creates a sidebar** from the `docs` folder.
 
