@@ -33,3 +33,8 @@ img{
   border:1px solid #ff00c8;
   border-radius: 7px;
 }
+
+
+.navbar__logo img{
+  border: none !important;
+}
