@@ -4,7 +4,8 @@ sidebar_position: 4
 
 # 🔍 Final Assessment Badge
 
-The "**Final Assessment**" badge is automatically awarded when a proposal's deadline is reached. <br />
+The "**Final Assessment**" badge is automatically awarded when a proposal's deadline is reached.
+
 During this phase, the OG Tracker team finalizes all findings and makes last attempts to communicate with the involved parties for further clarifications. The duration of this phase can extend up to one month, depending on the circumstances of each proposal and the proposers’ responsiveness.
 
 

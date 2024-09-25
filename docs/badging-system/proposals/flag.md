@@ -4,7 +4,9 @@ sidebar_position: 3
 
 # 🚩 Flagged Badge
 
-The "**Flagged**" badge indicates that a proposal has not been successfully delivered for various reasons and is generally associated with a negative connotation. For a proposal to be marked as flagged, it must meet the following criteria:
+The "**Flagged**" badge indicates that a proposal has not been successfully delivered for various reasons and is generally associated with a negative connotation. 
+
+For a proposal to be marked as flagged, it must meet the following criteria:
 - **Exceeded Deadline:** The proposal's deadline, including any applicable extensions, has been surpassed.
 - **Lack of Information:** No relevant information regarding the execution of all or part of the deliverables has been shared by the proposer or found by the OG Tracker team.
 - **Unresponsive Team:** The team is not responding to our calls or has ceased communication.
