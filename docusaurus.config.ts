@@ -76,7 +76,7 @@ const config: Config = {
       respectPrefersColorScheme: false, // Optional: ignores the user's system preference and forces dark mode
     },
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/oglogo.png',
     navbar: {
       title: '',
       logo: {
