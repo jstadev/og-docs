@@ -14,7 +14,7 @@ This section consists of four fields: Title, Report URL,Comment, and Choose File
     - Final report
 - **Report URL**: If your report is in a format such as Google Docs, Github, PDF, etc. provide the relevant link here. You can add multiple links by clicking the **"+"** button.
 - **Comment**: Share any comments relevant to your report or important notes that will help us validate your submission faster and more efficiently.
-- **Choose Files**: Upload pictures, PDFs, and any other file types you would like to share.
+
 
 Once you have completed your report, click the **‘’Save Report’’** button. 
 A confirmation pop-up will appear, indicating that your report has been successfully saved.
