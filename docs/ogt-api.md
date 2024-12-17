@@ -44,13 +44,13 @@ GET /proposals
 
 | Parameter      | Description                               | Example Values                                |
 |----------------|-------------------------------------------|----------------------------------------------|
-| `id`           | Proposal ID                              | `1`, `2`, `3`                                |
-| `refnum`       | Referendum number                        | `334`, `634`, `168`                          |
-| `status`       | Proposal status                          | `Delivered`, `InProgress`, `Flagged`         |
+| `id`           | Proposal ID                              | `1`, `2`, `3` , `4`, `...`                    |
+| `refnum`       | Referendum number                        | `334`, `634`, `168`                           |
+| `status`       | Proposal status                          | `Delivered`, `InProgress`, `Flagged`          |
 | `proposeradd`  | Proposer's address                       | `152WqfwdjHDwJBKfe85wXHtRsSxhcqGw4Qn3LmTa1ix1mSXY` |
 | `benadd`       | Beneficiary's address                    | `152WqfwdjHDwJBKfe85wXHtRsSxhcqGw4Qn3LmTa1ix1mSXY` |
-| `track`        | Track type                               | `smallSpender`, `mediumSpender`, `bigSpender`|
-| `category`     | Category type                            | `Development`, `Outreach`, `Operations`      |
+| `track`        | Track                                    | `smallSpender`, `mediumSpender`, `bigSpender`|
+| `category`     | Category                                 | `Development`, `Outreach`, `Operations` , `Research`, `Economy`|
 | `select`       | Fields to select                         | `*`                                          |
 
 
