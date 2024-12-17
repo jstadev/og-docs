@@ -11,7 +11,7 @@ This documentation provides a complete guide to help you use the OGTracker API. 
 ## Base URL
 The API base URL is:
 ```
-https://vapi.ogtracker.io/rest/v1/
+https://api.ogtracker.io/rest/v1/
 ```
 
 ---
@@ -57,11 +57,11 @@ GET /proposals
 **Example Queries:**
 - Fetch proposal by `refnum`:
   ```
-  https://vapi.ogtracker.io/rest/v1/proposals?refnum=eq.118&select=*
+  https://api.ogtracker.io/rest/v1/proposals?refnum=eq.118&select=*
   ```
 - Fetch proposals with `status=Delivered`:
   ```
-  https://vapi.ogtracker.io/rest/v1/proposals?status=eq.Delivered&select=*
+  https://api.ogtracker.io/rest/v1/proposals?status=eq.Delivered&select=*
   ```
 
 **Example Response:**
@@ -108,7 +108,7 @@ GET /tasks
 **Example Queries:**
 - Fetch tasks for proposal with `proposal_id=1`:
   ```
-  https://vapi.ogtracker.io/rest/v1/tasks?proposal_id=eq.1&select=*
+  https://api.ogtracker.io/rest/v1/tasks?proposal_id=eq.1&select=*
   ```
 
 **Example Response:**
@@ -222,7 +222,7 @@ Below is an example of how to fetch proposals and tasks using React with Axios:
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_BASE_URL = "https://vapi.ogtracker.io/rest/v1/";
+const API_BASE_URL = "https://api.ogtracker.io/rest/v1/";
 const API_KEY = "YOUR_API_KEY";
 
 const fetchData = async (endpoint, params = {}) => {
