@@ -131,6 +131,18 @@ GET /tasks
 ]
 ```
 
+**Task Statuses:**
+
+Each task can take one of the following values:
+
+- `A`: **Delivered** – This means the task is delivered.
+- `B`: **In Progress** – This means the task is still in progress.
+- `C`: **Flagged** – This means it has not been delivered.
+- `D`: **Remodel** – This means there were modifications to the task.
+
+For more information regarding the statuses of tasks, please refer [**here**](/category/badging-system-on-tasks-).
+
+
 ---
 
 ## React Examples
