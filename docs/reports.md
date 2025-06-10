@@ -15,4 +15,4 @@ Since the beginning of our operations, we have been creating and publishing **Mo
 - Total USDT/USDC funded by the end of the month.
 - Spender status by the end of the month.
 
-Follow us on [GrillApp](https://grillapp.net/29017) to stay updated every month with the latest OpenGov news!
+Follow us on [X](https://x.com/og_tracker) to stay updated every month with the latest OpenGov news!
