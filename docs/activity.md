@@ -17,3 +17,6 @@ Specifically the Activity History shows when:
 - Proposal Delivered
 - Proposal Flagged
 - Proposal Overdue
+
+
+<img src={require('@site/static/img/images/act.jpg').default} />

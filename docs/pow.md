@@ -14,3 +14,5 @@ In every proposal, under the ‘’progress’’ section  you can find all our 
 This information is unique, and we’re proud to be the only ones making it available!
 
 Note: If any PoW is missing, it is because the proposal is still in progress or has received a negative badge with no proofs provided.
+
+<img src={require('@site/static/img/images/pow.jpg').default} />
