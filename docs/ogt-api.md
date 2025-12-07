@@ -145,6 +145,55 @@ For more information regarding the statuses of tasks, please refer [**here**](/c
 
 ---
 
+### 3. **Fetch all Proof of Work (PoW)**
+
+PoW entries are stored in the `proposals_report` table.  
+Each PoW entry represents a report, document, or external link that proves work delivered for either:
+
+- A **full proposal** (`task_id = null`)
+- A **specific task** (`task_id = task_id`)
+
+**Endpoint:**  
+```
+GET /proposals
+```
+
+**Query Parameters:**
+- `proposal_id`: ID of the associated proposal (e.g., `933`, `934`, `944`)
+- `task_id`: ID of the associated task (e.g., `12`, `45`)
+- `select`: Fields to select (e.g., `*`)
+
+---
+
+**Example Queries:**
+
+- Fetch PoW for a proposal with `proposal_id=100`:
+  ```
+  https://api.ogtracker.io/rest/v1/tasks?proposal_id=eq.100&select=*
+  ```
+
+---
+
+**Example Response:**
+```json
+[
+  {
+    "id": 1472,
+    "proposal_id": 100,
+    "task_id": null,
+    "content": "https://docs.google.com/document/d/1qlxxxxxxxxxxxxxxxxxxxx/edit",
+    "created_at": "2025-10-24T17:48:16.020847+00:00"
+  },
+  {
+    "id": 1464,
+    "proposal_id": 100,
+    "task_id": null,
+    "content": "https://docs.google.com/document/d/1OExxxxxxxxxxxxxxxxxxxx/edit",
+    "created_at": "2025-09-30T13:40:02.780693+00:00"
+  }
+]
+
+
 ## React Examples
 
 ### 1. Fetch All Proposals
@@ -225,7 +274,54 @@ const fetchPaginatedProposals = async (limit, offset) => {
 };
 
 ```
+### 6. Fetch PoW for a Specific Proposal
+```javascript
+const fetchPowByProposalId = async (proposalId) => {
+  try {
+    const response = await axios.get(`${API_BASE_URL}proposals_report`, {
+      headers: { apikey: API_KEY },
+      params: { proposal_id: `eq.${proposalId}`, select: "*" },
+    });
+    console.log(response.data); // Log PoW for the proposal
+  } catch (error) {
+    console.error("Error fetching PoW:", error);
+  }
+};
 
+```
+
+### 7. Fetch PoW for a Specific Task
+```javascript
+const fetchPowByTaskId = async (taskId) => {
+  try {
+    const response = await axios.get(`${API_BASE_URL}proposals_report`, {
+      headers: { apikey: API_KEY },
+      params: { task_id: `eq.${taskId}`, select: "*" },
+    });
+    console.log(response.data); // Log PoW for the task
+  } catch (error) {
+    console.error("Error fetching task PoW:", error);
+  }
+};
+
+
+```
+
+### 8. Fetch PoW with Pagination
+```javascript
+const fetchPaginatedPow = async (limit, offset) => {
+  try {
+    const response = await axios.get(`${API_BASE_URL}proposals_report`, {
+      headers: { apikey: API_KEY },
+      params: { select: "*", limit, offset },
+    });
+    console.log(response.data); // Log paginated PoW
+  } catch (error) {
+    console.error("Error fetching paginated PoW:", error);
+  }
+};
+
+```
 
 ## Full Example
 Below is an example of how to fetch proposals and tasks using React with Axios:
